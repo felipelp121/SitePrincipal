@@ -19,7 +19,6 @@ body{
     text-align: center;
     
     background: url('../images/background4.png');
-    
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -181,11 +180,18 @@ nav ul li{
     background-color:rgb(211, 208, 208);
     border-radius: 20px;
     padding-top: 6vh;
-    
-    background-image: url('../images/teste.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:contain;
+}
+
+.cardP img{
+    margin-top: 35px;
+    width: 24rem;
+    height: auto;
+}
+
+.subtitle{
+    font-size: 20px;
+    line-height: 150px;
+    color: black;
 }
 
 #laguna{
@@ -242,18 +248,25 @@ nav ul li{
     display: flex;
     justify-content: center;
     margin-top: 8vh;
-    flex-flow: row wrap;
-    
+    flex-flow: wrap;
+    background-color: rgb(245, 245, 245);
+    height: 71.1vh;
 }
 #imageAbout img{
     width: 500px;
-    height: 70vh;
-    
+    height: auto;
+    margin-right: 20px;
+    align-self: flex-end;
 }
 
 #textAbout{
+    margin-top: 20px;
     width: 500px;
-    height: 70vh;
+    height: 65vh;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: start;
 }
 
 #contact{
