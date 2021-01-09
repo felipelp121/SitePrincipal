@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root{
+    --font-primary:'Poppins', sans-serif;
+    --font-secondary:'Montserrat', sans-serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: var(--font-primary);
+    
+}
+
+body{
+    text-align: center;
+    
+    background: url('../images/113.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 9vh;
+    background-color: rgba(0, 0, 0, 0.767);
+    
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: -4%;
+    
+}
+
+nav{
+    width: auto;
+    margin-left: 40%;
+    
+}
+
+nav ul{
+    text-decoration: none;
+    list-style-type: none;    
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 3vh;
+}
+
+.hamburguer{
+    visibility: hidden;  
+   
+    
+}
+
+#logo{
+    width: auto;
+}
+
+#banner{
+    
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1{
+    font-size: 500%;
+    font-family: var(--font-secondary);
+    padding-top: 18%;
+    padding-bottom: 8%;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.description1{
+    font-size: 280%;
+    padding-top: 5%;
+}
+
+
+
+.services{
+    width: 100%;
+    height: 55vh;
+    padding-top: 8%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 8vh;
+
+}
+
+.name{
+    margin-top: 8%;
+    font-family: var(--font-secondary);
+    font-size: 350%;
+    margin-bottom: -2%;    
+}
+
+.cardS{
+    width: 380px;
+    height: 48vh;
+    background-color:rgb(211, 208, 208);
+    border-radius: 20px;
+    padding-top: 6vh;
+
+}
+
+.cardS:hover{
+    background-color:rgba(211, 208, 208, 0.76);
+    transition: 600ms;
+}
+
+#wordpress{
+    margin-right: 5%;
+    
+}
+
+#progam{
+
+}
+
+#webDesign{
+    margin-left: 5%;
+}
+
+.title2{
+    color: black;
+    font-size: 230%;
+    font-weight: 500;
+    
+   
+}
+
+
+.text{
+    margin-top: 6%;
+    font-size: 120%;
+    color: black;
+    font-weight: 500;
+    
+}
+
+
+.cardP{
+    width: 22%;
+    height: 48vh;
+    /* background-color: rgba(0, 0, 0, 0.493); */
+    background-color:rgb(211, 208, 208);
+    border-radius: 20px;
+    padding-top: 6vh;
+    
+    background-image: url('../images/teste.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#laguna{
+    margin-right: 5%;
+}
+
+#mary{
+
+}
+
+#lari{
+    margin-left: 5%;
+}
+
+#projetos{
+    background-color: black;
+    padding-bottom: 0.3%;
+}
+
+.title3{
+    margin-top: 5.5%;
+    font-size: 380%;
+}
+
+.buttom1{
+    margin: auto;
+    margin-top: 2%;
+    width: 10%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+    font-size: 130%;
+    padding-top: 0.5%;
+    border-radius: 20px;
+    line-height: 160%;
+    
+    
+}
+
+.buttom1:hover{
+    transition: 200ms;
+    
+    
+    box-shadow: 2px 0px 30px 0px rgba(20, 59, 233, 0.931);
+    color:rgba(20, 59, 233, 0.931);
+    
+}
+
+
+
+#about{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+}
+#imageAbout{
+    width: 30%;
+    height: 70vh;
+    background-image: url("../images/imagenode.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#textAbout{
+    width: 30%;
+    height: 70vh;
+}
+
+#contact{
+    width: 50%;
+    height: 65vh;
+    margin: auto;
+    margin-top: 8vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 35%;
+    flex-wrap: wrap;
+}
+
+
+
+.nameInput{
+    font-size: 180%;
+    color: white;
+    text-align: start;
+    
+}
+
+input{
+    background-color: rgba(221, 221, 221, 0.746);
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+}
+
+input::placeholder{
+    font-size: 150%;
+    color: rgb(238, 238, 238);
+}
+
+.input1{
+    width: 60%;
+    height: 7%;
+}
+
+.input2{
+    width: 60%;
+    height: 12%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1120px){
+    #logo{
+        visibility: hidden;
+    }
+    nav ul{
+        visibility: hidden;
+    }
+
+    .hamburguer{
+        
+        visibility: visible;
+        
+        width: 2rem;
+        height: 2rem;
+        z-index: 100;
+        right: 25px;
+        top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+    }
+
+    .lineAll{
+        width: 100%;
+        height: 5px;
+        background-color: white;
+        margin-bottom: 7px;
+        
+    }
+    
+    .showMenu{
+        width: 40%;
+        height: 100vh;
+        background-color: red;
+    }
+
+    .showMenu .lineAll{
+        visibility: hidden;
+    }
+
+    .showMenu .hamburguer{
+        visibility: hidden;
+    }
+
+}
